@@ -357,11 +357,11 @@ header {
     display: none;
 }
 
-.nav > li > a {
+.nav>li>a {
     display: inline-block;
 }
 
-.navbar-nav > li {
+.navbar-nav>li {
     float: none;
     display: inline;
 }
@@ -434,9 +434,6 @@ header {
     display: none;
 }
 
-.carousel {}
-
-
 /* Since positioning the image, we need to help out the caption */
 
 .carousel-caption {
@@ -451,7 +448,7 @@ header {
     background-color: #0A64A4;
 }
 
-.carousel-inner > .item > img {
+.carousel-inner>.item>img {
     position: absolute;
     top: 0;
     left: 0;
@@ -1181,6 +1178,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
         height: 140px;
         padding-top: 35px;
     }
+
     .education .workYear {
         padding-top: 58px;
     }
@@ -1191,17 +1189,21 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
         padding-left: 18px;
         padding-right: 18px;
     }
+
     .bannerText {
         padding-left: 25px;
         padding-right: 25px;
     }
+
     .bannerText h1 {
         font-size: 65px;
         line-height: 71px;
     }
+
     .bannerText h2 {
         font-size: 28px;
     }
+
     .proPic {
         text-align: center;
     }
@@ -1211,15 +1213,19 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
     body {
         min-height: 700px;
     }
+
     #header h3 {
         font-size: 38px;
     }
+
     #header h3 span {
         font-size: 16px;
     }
+
     .abc {
         width: 100%;
     }
+
     .navbar.navbar-inverse.navbar-static-top a {
         padding-left: 17px;
     }
@@ -1229,17 +1235,20 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
     .conForm input.col-sm-6 {
         width: 48.5%;
     }
+
     .conForm input.col-lg-6 {
         width: 48.5%;
     }
 }
 
 @media screen and (max-width: 768px) {
+
     .navbar-wrapper .container,
     .navwrapper .container {
         padding-right: 15px;
         padding-left: 15px;
     }
+
     ul.portfolioContainer li.col-xs-6 {
         width: 49%;
         min-height: 85px;
@@ -1250,24 +1259,30 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
     .navbar-header {
         display: block;
     }
+
     .workYear {
         margin: 0 auto;
     }
+
     .workDetails .rightArea {
         border-left: none;
     }
+
     .arrowpart {
         float: none;
         width: 100%;
         height: 40px;
         background: url(../images/arrow-top.png) no-repeat 50% 100%;
     }
+
     .education .arrowpart {
         background: url(../images/arrow-top-light.png) no-repeat 50% 100%;
     }
+
     .exCon {
         margin-left: 0px;
     }
+
     ul.navbar-nav li a {
         display: block;
     }
@@ -1277,6 +1292,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
     #wrapper {
         top: 200px !important;
     }
+
     .upbox {
         transform: translate(0px, -70px);
         -ms-transform: translate(0px, -70px);
@@ -1284,15 +1300,18 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
         -webkit-transform: translate(0px, -70px);
         /* Safari and Chrome */
     }
+
     .bannerText {
         top: 25%;
         padding-top: 15px;
         padding-bottom: 15px;
     }
+
     .bannerText h1 {
         font-size: 42px;
         line-height: 48px;
     }
+
     .bannerText h2 {
         font-size: 18px;
         line-height: 24px;
@@ -1308,38 +1327,48 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
 }
 
 @media screen and (max-width: 400px) {
+
     #loopedSlider,
     #newsSlider {
         min-height: 650px;
         height: 100%;
     }
+
     ul.slides {
         min-height: 600px;
         height: 100%;
     }
+
     .item {
         width: 19%;
     }
+
     .item p {
         font-size: 36px;
     }
+
     .aboutme img {
         width: 100%;
     }
+
     ul.portfolioContainer li.col-xs-6 {
         width: 100%;
     }
+
     .bntDownload {
         font-size: 13px;
         padding: 16px 14px;
     }
+
     .conForm textarea {
         margin-bottom: 20px;
     }
+
     .textGroup {
         display: block;
         padding: 0 0 40px 0;
     }
+
     .nameError,
     .emailError {
         left: 0px;
@@ -1370,5 +1399,17 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
 }
 
 .mb-3 {
-    margin-bottom: 3%!important;
+    margin-bottom: 3% !important;
+}
+
+/* custom Serch */
+
+.exCon>h4>a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.exCon>h4>a:hover {
+    text-decoration: underline;
+    color: rgb(38, 38, 109);
 }
