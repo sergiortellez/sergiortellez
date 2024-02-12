@@ -198,7 +198,7 @@ header {
 
 .cb-slideshow li {
     opacity: 0.5;
-    filter: alpha(opacity=50);
+    filter: alpha(opacity=60);
     /* For IE8 and earlier */
 }
 
@@ -461,7 +461,7 @@ header {
 ------------------------------------------------------*/
 
 .aboutme {
-    background: #00bdbd;
+    background: #22599d;
     color: #fff;
     position: relative;
 }
@@ -484,14 +484,14 @@ header {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    background: #474d5d;
+    background: #05194f;
     padding: 16px 22px;
     display: inline-block;
 }
 
 .bntDownload:hover {
-    background: #373d4c;
-    color: #CCCCCC;
+    background: #b6c5e9;
+    color: #333232;
     text-decoration: none;
 }
 
@@ -524,7 +524,7 @@ header {
 }
 
 .technical h2 {
-    color: #ff675f;
+    color: #0d3eb1;
 }
 
 .technical .skillsArea {
