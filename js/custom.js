@@ -138,7 +138,15 @@
 
 
 
-	// chart loding
+	// Initialization of the EasyPieChart with barColor set to blue
+	$('.chart').easyPieChart({
+		barColor: '#22599d', // Sets the bar color to blue.
+		// Other options...
+		onStep: function (from, to, percent) {
+			$(this.el).find('.percent').text(Math.round(percent));
+		}
+	});
+
 	$(window).load(function () {
 
 		var chart = window.chart = $('.chart').data('easyPieChart');
@@ -146,6 +154,5 @@
 			chart.update(Math.random() * 100);
 		});
 	});
-
 
 }(jQuery));

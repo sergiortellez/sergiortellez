@@ -575,6 +575,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
+    color: blue;
 }
 
 .percent {
@@ -614,7 +615,7 @@ header {
 }
 
 .exprience h2 {
-    color: #ff675f;
+    color: #0d3eb1;
 }
 
 .exprience p {
@@ -643,7 +644,7 @@ header {
 .workYear {
     font-size: 17px;
     color: #fff;
-    background: #ff675f;
+    background: #22599d;
     text-align: center;
     width: 120px;
     height: 120px;
@@ -696,7 +697,7 @@ header {
 }
 
 .education h2 {
-    color: #ff675f;
+    color: #0d3eb1;
 }
 
 .education p {
@@ -732,7 +733,7 @@ header {
 ------------------------------------------------------*/
 
 .protfolio {
-    background: #2bb3dd;
+    background: #22599d;
 }
 
 .protfolio .container {
@@ -986,7 +987,8 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
 }
 
 .contact h2 {
-    color: #ff675f;
+    color: #22599d;
+    font-weight: bold;
 }
 
 .contact p {
@@ -1014,6 +1016,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
     overflow: hidden;
     width: 100%;
     margin: 0;
+   
 }
 
 .mapArea iframe {
@@ -1021,6 +1024,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
     height: 396px;
     padding-bottom: 4px;
     background: url(../images/map-bro.png) repeat-x 0 100%;
+     opacity: 0.5;
 }
 
 .contactDetails {
@@ -1085,7 +1089,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
 }
 
 .conForm .submitBnt {
-    background: #ff675f;
+    background: #0d3eb1;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     font-size: 16px;
@@ -1111,7 +1115,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
 }
 
 .error_message {
-    color: #ff675f;
+    color: #0d3eb1;
     padding-bottom: 15px;
     font-weight: 500;
 }
@@ -1126,7 +1130,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
 ------------------------------------------------------*/
 
 .footer {
-    background: #00bdbd;
+    background: #22599d;
 }
 
 .footer .container {
@@ -1143,7 +1147,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
     display: inline-block;
     text-align: center;
     background: #ffffff;
-    color: #00bdbd;
+    color: #0d3eb1;
     line-height: 42px;
     margin: 0 6px;
     width: 42px !important;
@@ -1160,7 +1164,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
 }
 
 .footer ul li a {
-    color: #00bdbd;
+    color: #0d3eb1;
     width: 42px !important;
     height: 42px !important;
 }
