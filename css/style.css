@@ -175,7 +175,7 @@ header {
     border: 1px solid #fff;
     background: rgba(0, 0, 0, 0.5);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#b2000000, endColorstr=#b2000000);
-    zoom: 1;
+    /* zoom: 1; */
 }
 
 .bannerText h1 {
@@ -232,7 +232,7 @@ header {
 }
 
 .ri-grid ul {
-    zoom: 1;
+    /* zoom: 1; */
     /* For IE 6/7 (trigger hasLayout) */
 }
 
